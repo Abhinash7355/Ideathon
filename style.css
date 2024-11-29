@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body{
-  height: 100vh;
-  width: 100%;
-}
-
 .navbar{
   background-color: #000;
   display: flex;
@@ -28,6 +23,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .navbar .left a{
@@ -45,8 +41,9 @@ body{
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   margin: 1rem auto;
 }
 
@@ -54,6 +51,7 @@ body{
 
   height: 400px;
   width: 400px;
+  padding: 10px;
   border: 2px solid black;
   border-radius: 15px;
   box-shadow: 0.1px 0.1px 5px 0.1px rgb(8, 8, 8);
@@ -123,6 +121,60 @@ marquee{
 }
 
 marquee img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.organiser{
+
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.organiser h1{
+  margin-bottom: 1rem;
+  
+}
+
+.card{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(206, 130, 143), yellow);
+}
+
+.card img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 0.5rem;
+
+}
+
+.card a{
+  text-decoration: none;
+  font-size: 25px;
+  background-color: royalblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.org-heading{
+  margin-top: 2rem;
 }

@@ -174,3 +174,4 @@ submitBtn.addEventListener("click", () => {
     alert("Please select a name from the dropdown!");
   }
 });
+
